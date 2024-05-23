@@ -435,3 +435,22 @@ footer p {
 .text-left {
     text-align: left;
 }
+
+.minimal-btn {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    margin-right: 20px;
+}
+
+.minimal-btn:focus {
+    outline: none;
+}
+
+/* Add vertical space between paragraphs */
+p {
+    margin-bottom: 1rem; /* Adjust the value as needed */
+}

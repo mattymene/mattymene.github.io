@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ing Inf UniPD</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo">Guides for Ingegneria Informatica Unipd</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#1st_year">1st year</a></li>
+            <li><a href="#2nd_year">2nd year</a></li>
+            <li><a href="#3rd_year">3rd year</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Guides for Ingegneria Informatica Unipd</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#1st_year" onclick="toggleMenu()">1st year</a></li>
+            <li><a href="#2nd_year" onclick="toggleMenu()">2nd year</a></li>
+            <li><a href="#3rd_year" onclick="toggleMenu()">3rd year</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Mattia menegale profile picture" />
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mattia Menegale</h1>
+        <p class="section__text__p2">Startup Founder & Computer Engineer </p>
+        <div class="btn-container">
+            <button
+                    class="btn btn-color-2"
+                    onclick="window.open('./assets/Mattia_Menegale_Resume.pdf')"
+            >
+                Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='#contact'">
+                Contact Info
+            </button>
+        </div>
+        <div id="socials-container">
+            <img
+                    src="./assets/linkedin.png"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    onclick="location.href='https://linkedin.com/'"
+            />
+            <img
+                    src="./assets/github.png"
+                    alt="My Github profile"
+                    class="icon"
+                    onclick="location.href='https://github.com/mattymene'"
+            />
+        </div>
+    </div>
+</section>
+<section id="1st_year">
+    <p class="section__text__p1">Browse My Guides for</p>
+    <h1 class="title">1st year</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/guides/y1/ADE.png"
+                            alt="ADE.png"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">ADE</h2>
+                <p class="text-left"> Architettura Degli Elaboratori (Silvestri): <br />
+                    DOCUMENTI:<br />
+                    -“ APPUNTI ADE” = appunti delle lezioni presi in maniera approfondita e completa, divisi per
+                    SETTIMANE <br />
+                    - “RIASSUNTO ADE” = riassunto della teoria STRETTAMENTE necessaria per gli esercizi,
+                    divisa per SETTIMANE <br />
+                    - “ESERCIZI ADE”= RISOLUZIONE con procedimento di TUTTI gli ESERCIZI dei PDF forniti dal
+                    PROF, divisi per SETTIMANE <br />
+                    - “FORMULARIO ADE”= raccolta di tutte le FORMULE necessaria alla RISOLUZIONE degli
+                    ESERCIZI, divise per SETTIMANE <br />
+                    - “ISTRUZIONI ARM”= raccolta delle ISTRUZIONI ARM insidiose <br />
+                    - “PROVA PROGRAMMAZIONE”= tutto ciò che serve per fare la PARTE DI
+                    PROGRAMMAZIONE <br />
+                    ... leggi di più sulla Guida
+                </p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://drive.google.com/drive/folders/1EGNI3d75lnlUUVwWbq5stwGpCudsxfjQ?usp=sharing')"
+
+                    >
+                        Download
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="2nd_year">
+    <p class="section__text__p1">Browse My Guides for</p>
+    <h1 class="title">2nd year</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y2/DEA.png"
+                                            alt="DEA.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">DEA</h2>
+                                <p class="text-left"> Dati e Algoritmi (Pellegrina-Pietracaprina):<br />
+                                    DOCUMENTI:<br/>
+                                    - “Teoria Mene”: tutta e sola la teoria da sapere per l’esame con definizioni, algoritmi,
+                                    complessità e dimostrazioni<br/>
+                                    - “Es Svolti”: tutti gli es svolti, argomento per argomento<br/>
+                                    - “Temi esame”: tutti i temi d’esame svolti<br/>
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1LyWNm6EAMvDF3LF5U2C-pf78lKuEblgA?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img
+                                    src="./assets/guides/y2/FAMP.png"
+                                    alt="FAMP.png"
+                                    class="project-img"
+                            />
+                        </div>
+                        <h2 class="experience-sub-title project-title">FAMP</h2>
+                        <p class="text-left"> Fondamenti di Analisi 2 e Probabilità (Mariconda): <br />
+                            DOCUMENTI: <br />
+                            - “Quiz”: contiene tutti i 13 quiz settimanali risolti da me, sufficienti per prepararsi all’esame <br />
+                            - “Esempio Peer Review”: contiene la mia peer review <br />
+                            ... leggi di più sulla Guida
+                        </p>
+                        <div class="btn-container">
+                            <button
+                                    class="btn btn-color-2 project-btn"
+                                    onclick="window.open('https://drive.google.com/drive/folders/12apDKIiJZiOVMDg98znBk2iLorghxJHt?usp=sharing')"
+
+                            >
+                                Download
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y2/FISICA_2.png"
+                                            alt="FISICA_2.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">Fisica 2</h2>
+                                <p class="text-left"> Fisica 2 (Vallone): <br />
+                                    DOCUMENTI:<br />
+                                    - “APPUNTI FISICA 2”: i miei appunti dalle lezioni <br />
+                                    - “RIASSUNTO COMPLETO”: riassunto di appunti e formule necessarie per l’esame <br />
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/148ItTTrKasDrJqhhATCWDgIuH-m9fnA7?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y2/LDP.png"
+                                            alt="LDP.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">Lab di Programmazione</h2>
+                                <p class="text-left"> Lab di Programmazione (Ghidoni):<br />
+                                    DOCUMENTI:<br />
+                                    - “RIASSUNTO-OP”: contiene tutta e sola la teoria necessaria per l’esame<br />
+                                    - “CMAKE GUIDA”: guida a CMAKE<br />
+                                    - “GIT GUIDA”: guida a GIT<br />
+                                    - “Laboratorio”: contiene tutti i laboratori svolti<br />
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1f6Bbj6fFYLRBOvY4upjGI5GmVjT3VUwJ?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y2/EDIDS.png"
+                                            alt="EDIDS.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">EDIDS</h2>
+                                <p class="text-left"> Elementi Di Ingegneria Del Software (Boldrin):<br />
+                                    DOCUMENTI:<br/>
+                                    - “Domande appelli passati”= raccolta di tutte le possibili domande di teoria richieste all’esame
+                                    (durante l’esposizione orale del progetto)<br/>
+                                    - “RISPOSTE DOMANDE MENE” = risposte alle possibili domande di teoria richieste all’esame<br/>
+                                    - “APPUNTI EDIDS MENE”=appunti di tutto il corso, presi molto bene (anche troppo). Da
+                                    consultare solo per lo sviluppo del progetto e per la produzione della documentazione<br/>
+                                    - "http://klotskigruppo2.it/": progetto finale <br/>
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1oKKdcPVAhC68KBMRJg5VZql4NGcDviIr?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y2/FDCA.png"
+                                            alt="FDCA.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">FDCA</h2>
+                                <p class="text-left"> Fondamenti Di Controlli Automatici (Varagnolo-Zampieri):<br />
+                                    DOCUMENTI:<br/>
+                                    - "APPUNTI FDCA MENE” = appunti delle lezioni presi in maniera approfondita e completa.<br/>
+                                    - "FDCA Studio” = riassunto della teoria necessaria per capire gli esercizi, dei procedimenti degli
+                                    esercizi, e di alcuni es svolti da me durante il corso<br/>
+                                    - “Teoria esercizi” = descrizione (passaggio per passaggio) dei procedimenti per risolvere
+                                    ciascuna delle 5 tipologie di esercizi<br/>
+                                    - “Esercizi”= esercizi svolti in preparazione all’esame, suddivisi in base alle 5 tipologie.<br/>
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1DbnZH7rXw5Cac3PPl5q4yjfEcNsv5syG?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y2/SO.png"
+                                            alt="SO.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">SO</h2>
+                                <p class="text-left"> Sistemi Operativi (Bellotto):<br />
+                                    DOCUMENTI:<br/>
+                                    - "APPUNTI LEZIONI": appunti presi lezione per lezione, solo le parti sottolineate in verde sono
+                                    quelle che ho imparato a memoria per l’esame<br/>
+                                    - "APPUNTI UNITI": pdf unico<br/>
+                                    - "APPUNTI LAB": appunti laboratorio, solo le parti sottolineato in giallo sono quelle che ho
+                                    imparato a memoria per l’esame<br/>
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1hy9Rmm8cGaSB5jL58gI77IFEm-blrLQV?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y2/TDC.png"
+                                            alt="TDC.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">TDC</h2>
+                                <p class="text-left"> Teoria Dei Circuiti (Desideri-Marconato-...):<br />
+                                    DOCUMENTI:<br/>
+                                    - "APPUNTI TDC MENE": puoi seguire direttamente le lezioni da qui, c’è la spiegazione
+                                    letteralmente di tutta la teoria fatta in classe<br/>
+                                    - "PROC E ES SVOLTI": dispiego come fare tutti gli esercizi e trovi i miei es svolti<br/>
+                                    - "DOMANDE TEORIA TDC": ho raccolto tutte le domande di teoria dagli appelli degli anni passati
+                                    (molti non sono più disponibili, perché erano dentro moodle vecchi). Le domande di teoria
+                                    dell’esame vengono SEMPRE prese tra queste<br/>
+                                    - "TEORIA ESAME RIASSUNTO": la risposta a tutte le domande di teoria che puoi trovare
+                                    all’esame<br/>
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1yyiBtXpdILpeu2TwCcE-iypvwuN6VVzh?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="3rd_year">
+    <p class="section__text__p1">Browse My Guides for</p>
+    <h1 class="title">3rd year</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container color-container">
+                            <div class="article-container">
+                                <img
+                                        src="./assets/guides/y3/BDD.png"
+                                        alt="BDD.png"
+                                        class="project-img"
+                                />
+                            </div>
+                            <h2 class="experience-sub-title project-title">BDD</h2>
+                            <p class="text-left"> Basi Di Dati (Di Nunzio):<br />
+                                DOCUMENTI:<br/>
+                                - "APPUNTI BDD MENE": appunti dalle lezioni del 23/24<br/>
+                                - "GUIDA BDD MENE": Riassunto completo di: libro di Di Nunzio + Appunti + Aggiunte dall’Atzeni (lo stretto necessario), SQL, Quiz a sbarramento: spiegazione domande ostiche, Guida per fare le prove d’esame, NB <br/>
+                                - "Temi d’esame BDD MENE": temi d’esame fatti da me<br/>
+                                - "Domande - Ultima lezione 23-24": appunti ultima lezione 23/24 in cui Di Nunzio spiega i quiz
+                                d’esame <br/>
+                                ... leggi di più sulla Guida
+                            </p>
+                            <div class="btn-container">
+                                <button
+                                        class="btn btn-color-2 project-btn"
+                                        onclick="window.open('https://drive.google.com/drive/folders/14ZZEOHQlfJEJPE-YfUFHcgsc3c94LKhq?usp=sharing')"
+
+                                >
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y3/FDE.png"
+                                            alt="FDE.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">FDE</h2>
+                                <p class="text-left"> Fondamenti Di Elettronica (Zanoni):<br />
+                                    DOCUMENTI:<br/>
+                                    - "FDE APPUNTI 2o COMPITINO MENE": Appunti dettagliati di tutta la teoria spiegata in classe nell’anno 23/24 per il 2o compitino<br/>
+                                    - "FDE RIASSUNTO 2o COMPITINO MENE": Riassunto del file FDE APPUNTI 2o COMPITINO MENE. Si tratta di tutto e solo ciò che serve. Consiglio di studiare da questo<br/>
+                                    - "Guida 3o compitino": riassunto specifico per gli esercizi del 3o compitino, le parti barrate in rosso sono corrette, solo che un po’ superflue, tutto il resto invece è lo stretto necessario.<br/>
+                                    - "Esercizi compitini FDE MENE": esercizi svolti da me in preparazione ai compitini<br/>
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1pgUYbSDJ07sbawjUTEtH_k5U9kMXWgwo?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y3/FDT.png"
+                                            alt="FDT.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">FDT</h2>
+                                <p class="text-left"> Fondamenti Di Telecomunicazioni (Tomasin-Corvaja):<br />
+                                    DOCUMENTI:<br/>
+                                    - "Formulario": contiene i 2 formulari rispettivamente per primo e secondo compitino (ciascuno di
+                                    2 facciate)<br/>
+                                    - "STUDIO FDT": contiene tutta la teoria, presa dai miei appunti, spiegata nelle lezioni di Tomasin<br/>
+                                    - "TEORIA 2o COMPITINO": conțiene un riassunto della teoria per il 2o compitino, spiegata in
+                                    maniera più schematica (e secondo me più efficace) rispetto a quanto ci sia già in “STUDIO
+                                    FDT” (ad ogni modo sono le stesse identiche cose, solo più riassunte e spiegate un po’ meglio).<br/>
+                                    - "COMPITINI 1": raccolta di tutti i primi compitini svolti da me in preparazione del primo compitino
+                                    (con procedimenti spiegati bene)<br/>
+                                    - "COMPITINI 2": raccolta di tutti i secondi compitini e le seconde parti di tutti gli appelli d’esame
+                                    svolti da me in preparazione del secondo compitino (con procedimenti spiegati bene)<br/>
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1ycJt8veqUA2btUCmUneADDsBIlUk4cgO?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="experience-details-container">
+                        <div class="about-containers">
+                            <div class="details-container color-container">
+                                <div class="article-container">
+                                    <img
+                                            src="./assets/guides/y3/PM.png"
+                                            alt="PM.png"
+                                            class="project-img"
+                                    />
+                                </div>
+                                <h2 class="experience-sub-title project-title">PM</h2>
+                                <p class="text-left"> Project Management (Bellotto):<br />
+                                    DOCUMENTI:<br/>
+                                    - “Domande_PM”: domande-risposte del primo appello anno passato (me le sono imparate a
+                                    memoria durante l’esame e le ho trascritte dopo averlo dato)<br/>
+                                    - “Riassunto”: riassunto ESAUSTIVO, COMPLETO, delle slides. Copre tutte le possibili
+                                    domande d’esame.<br/>
+                                    ... leggi di più sulla Guida
+                                </p>
+                                <div class="btn-container">
+                                    <button
+                                            class="btn btn-color-2 project-btn"
+                                            onclick="window.open('https://drive.google.com/drive/folders/1xjd_lE1Hkbr3a2ys_riXTFwxJT0Q6TlK?usp=sharing')"
+
+                                    >
+                                        Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img
+                    src="./assets/email.png"
+                    alt="Email icon"
+                    class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:menegalep@gmail.com">menegalep@gmail.com </a></p>
+        </div>
+        <div class="contact-info-container">
+            <img
+                    src="./assets/linkedin.png"
+                    alt="LinkedIn icon"
+                    class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2FkdV06yPQsK8pNumivcXrg%3D%3D">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#guides">Guides</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Last update 05/17/2024. Mattia Menegale.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

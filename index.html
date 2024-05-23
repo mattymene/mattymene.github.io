@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Mattia Menegale</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -16,6 +16,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#guides">Guides</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -32,17 +33,18 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#guides" onclick="toggleMenu()">Guides</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/profile-pic.png" alt="Mattia Menegale profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Mattia Menegale</h1>
+        <h1 class="title">Mattia Menegale (mene)</h1>
         <p class="section__text__p2">Startup Founder & Computer Engineer </p>
         <div class="btn-container">
           <button
@@ -312,7 +314,7 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">spottedPD</h2>
-            <p>spottedPD è un'app social network progettata per migliorare la vita sociale degli studenti di Padova. Attraverso l’app puoi organizzare eventi, incontrare nuove persone e creare ricordi duraturi. Che si tratti di organizzare un aperitivo, di partecipare ad un concerto o di cercare la crush che hai visto ad una festa, spottedPD ti aiuterà a conoscere nuovi compagni di avventure con cui condividere esperienze.
+            <p>spottedPD is a social networking app designed to enhance the social life of students in Padua. Through the app, you can organize events, meet new people, and create lasting memories. Whether it’s organizing an aperitivo, attending a concert, or looking for the crush you saw at a party, spottedPD will help you find new adventure companions to share experiences with.
             </p>
             <div class="btn-container">
               <button
@@ -364,6 +366,47 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    <section id="guides">
+      <p class="section__text__p1">Browse My </p>
+      <h1 class="title">Exam Guides</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                      src="./assets/University_of_Padua.png"
+                      alt="Project 1"
+                      class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Ingegneria Informatica Triennale UniPD</h2>
+            <p>This section is dedicated to my colleagues. Here you’ll find my collection of guides and expertise to help you prepare for and succeed in all exams of the Bachelor’s degree in Computer Engineering at the University of Padua. Feel free to use them and achieve your degree. I believe in you!
+            </p>
+            <div class="btn-container">
+              <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='guides.html'"
+
+              >
+                Get the guides
+              </button>
+              <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.location.href='mailto:menegalep@gmail.com'"
+              >
+                Contact me
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#contact'"
+      />
+    </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -393,6 +436,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#guides">Guides</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>

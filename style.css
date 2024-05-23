@@ -430,3 +430,8 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* OTHERS */
+.text-left {
+    text-align: left;
+}

@@ -17,7 +17,7 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#guides">Guides</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contacts">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -35,7 +35,7 @@
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#support_me" onclick="toggleMenu()">Support Me</a></li>
           <li><a href="#guides" onclick="toggleMenu()">Guides</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -55,7 +55,7 @@
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
+          <button class="btn btn-color-1" onclick="location.href='#contacts'">
             Contact Info
           </button>
         </div>
@@ -104,7 +104,7 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>University of Padua Bachelor's Degree<br /><!-- Master Degree --></p>
+              <p> Computer Engineering Bachelor's Degree at University of Padua<br /><!-- Master Degree --></p>
             </div>
           </div>
           <div class="text-container">
@@ -317,7 +317,7 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">spottedPD</h2>
-            <p>spottedPD is a <b>social networking app</b> designed to enhance the social life of students in Padua. Through the app, you can <b>organize events</b>, <b>meet new people</b>, and <b>create lasting memories</b>. Whether it’s organizing an aperitivo, attending a concert, or looking for the crush you saw at a party, spottedPD will help you find new adventure companions to share experiences with.
+            <p class="text-left">spottedPD is a <b>social networking app</b> designed to enhance the social life of students in Padua. Through the app, you can <b>organize events</b>, <b>meet new people</b>, and <b>create lasting memories</b>. Whether it’s organizing an aperitivo, attending a concert, or looking for the crush you saw at a party, spottedPD will help you find new adventure companions to share experiences with.
             </p>
             <div class="btn-container">
               <button
@@ -339,12 +339,12 @@
             <div class="article-container">
               <img
                 src="./assets/klotski.png"
-                alt="Project 2"
+                alt="software_eng"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Software Engineering Project</h2>
-            <p>I collaborated with a dedicated team of four individuals on a university project aimed at honing our software engineering skills and mastering agile development techniques.</p>
+            <p class="text-left">I collaborated with a dedicated team of four individuals on a university project aimed at honing our software engineering skills and mastering agile development techniques.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -489,30 +489,64 @@
               onclick="location.href='./#contact'"
       />
     </section>
-    <section id="contact">
+    <section id="contacts">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <p>These are my contacts: feel free to text me!</p>
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:menegalep@gmail.com">menegalep@gmail.com </a></p>
-        </div>
-        </p></p>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2FkdV06yPQsK8pNumivcXrg%3D%3D">LinkedIn</a></p>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                      src="./assets/contacts.png"
+                      alt="contacts"
+                      class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">These are my contacts</h2>
+            <p class="text-left">Feel free to text me to:<br/>
+              • get info on/discuss about <b>spottedPD</b><br/>
+              • share a <b>feedback</b><br/>
+              • discuss <b>opportunities</b><br/>
+              • <b>networking</b><br/>
+              • <b>whatever</b>!</p>
+            <div class="btn-container">
+              <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.location.href='https://wa.me/393924749686?text=Ciao,%20ho%20trovato%20il%20tuo%20sito%20utile!'"
+              >
+                Whatsapp
+              </button>
+              <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="window.location.href='mailto:menegalep@gmail.com'"
+
+              >
+                Send Mail
+              </button>
+              <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.instagram.com/mattia.menegale'"
+              >
+                IG
+              </button>
+              <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2FkdV06yPQsK8pNumivcXrg%3D%3D'"
+              >
+                Linkedin
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+      <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#contact'"
+      />
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -521,7 +555,7 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#guides">Guides</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contacts">Contact</a></li>
           </ul>
         </div>
       </nav>

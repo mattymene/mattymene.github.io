@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spottedPD</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo">spottedPD</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#startup">Startup</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#guides">Guides</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">spottedPD</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#startup" onclick="toggleMenu()">Startup</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#support_me" onclick="toggleMenu()">Support</a></li>
+            <li><a href="#guides" onclick="toggleMenu()">Guides</a></li>
+            <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="./assets/spottedPD_logo_app.png" alt="spottedPD_logo_app" />
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">spottedPD</h1>
+        <p class="section__text__p2">Startup Founder & Computer Engineer </p>
+        <p class="section__text__p2">Empathy Cooperation Networking </p>
+        <div class="btn-container">
+            <button
+                    class="btn btn-color-2"
+                    onclick="window.open('./assets/Mattia_Menegale_Resume.pdf')"
+            >
+                Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='#contacts'">
+                Contact Info
+            </button>
+        </div>
+        <div id="socials-container">
+            <img
+                    src="./assets/linkedin.png"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2FkdV06yPQsK8pNumivcXrg%3D%3D'"
+            />
+            <img
+                    src="./assets/github.png"
+                    alt="My Github profile"
+                    class="icon"
+                    onclick="location.href='https://github.com/mattymene'"
+            />
+        </div>
+    </div>
+</section>
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img
+                    src="./assets/about-pic.png"
+                    alt="Profile picture"
+                    class="about-pic"
+            />
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img
+                            src="./assets/experience.png"
+                            alt="Experience icon"
+                            class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p>1+ year <br />Startup Founder</p>
+                </div>
+                <div class="details-container">
+                    <img
+                            src="./assets/education.png"
+                            alt="Education icon"
+                            class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p> Computer Engineering Bachelor's Degree at University of Padua<br /><!-- Master Degree --></p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    Determined <b>Startup Founder</b> and passionate <b>Computer Engineering Student</b> with a strong interest in <b>AI</b> and a focus on innovative solutions.<br />
+                    I founded <b>spottedPD</b>, a social network app currently available in beta, where I tackle technical challenges and hone my product management.<br />
+                    I am really pleased to be a point of reference for my classmates by freely sharing my notes and the <b>exam guides</b> that I prepare.<br />
+                    At present, I am dedicated to the official launch of spottedPD and completing my graduation.<br />
+                    Feel free to contact me to <b>collaborate</b> on the startup project or to discuss job <b>opportunities</b>.<br />
+                </p>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+    />
+</section>
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Startup</h2>
+                <div class="article-container">
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Leadership</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Team Management</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Product Development</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Problem Solving</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Networking</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Market Analysis</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Computer Engineering</h2>
+                <div class="article-container">
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Software Engineering</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Database (SQL and NoSQL)</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Algorithms</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Articial Intelligence</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Flutter</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Java</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>C++</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+    />
+</section>
+<section id="startup">
+    <p class="section__text__p1">Know more about my startup </p>
+    <h1 class="title">spottedPD</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/spottedPD.png"
+                            alt="spottedPD"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">spottedPD</h2>
+                <p class="text-left">spottedPD is a <b>social networking app</b> designed to enhance the social life of students in Padua. Through the app, you can <b>organize events</b>, <b>meet new people</b>, and <b>create lasting memories</b>. Whether it’s organizing an aperitivo, attending a concert, or looking for the crush you saw at a party, spottedPD will help you find new adventure companions to share experiences with.<br/>
+                    <b>... press buttons to know more about it!</b>
+                </p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('./assets/Presentazione_spottedPD.pdf')"
+
+                    >
+                        Join us
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('./assets/Presentazione_spottedPD.pdf')"
+                    >
+                        Test the beta
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/klotski.png"
+                            alt="software_eng"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Software Engineering Project</h2>
+                <p class="text-left">I collaborated with a dedicated team of four individuals on a university project aimed at honing our software engineering skills and mastering agile development techniques.</p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/bellins14/klotski_gruppo2'"
+                    >
+                        Github
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='http://klotskigruppo2.it'"
+                    >
+                        Website
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="support_me">
+    <p class="section__text__p1">If you want you can </p>
+    <h1 class="title">Support Me</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/support_me.png"
+                            alt="Support Me"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Let's collaborate</h2>
+                <p class="text-left">
+                    Do you find my guides useful and <b>want to help me?</b> <br/>
+                    I don’t believe in money, but I do firmly believe in <b>Empathy</b>, <b>Cooperation</b>, and <b>Networking</b>.<br/>
+                    Therefore, there are several important ways you can help me:<br/></p>
+                <p class="text-left"> • <b>Test spottedPD in beta</b> your feedback is invaluable to improving the app.<br/>
+                </p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('./assets/Presentazione_spottedPD.pdf')"
+                    >
+                        Test the beta
+                    </button>
+
+                </div>
+                <p></p>
+                <p class="text-left"> • <b>Join the spottedPD team</b> work with us in exchange for equities.<br/></p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.open('./assets/Presentazione_spottedPD.pdf')"
+                    >
+                        Join team
+                    </button>
+                </div>
+                <p></p>
+                <p class="text-left"> • <b>Follow me on LinkedIn</b> and stay updated with my latest projects and insights.<br/></p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2FkdV06yPQsK8pNumivcXrg%3D%3D'"
+                    >
+                        Linkedin
+                    </button>
+                </div>
+                <p></p>
+                <p class="text-left"> • <b>Follow me on IG</b> to stay updated with my private life<br/></p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.instagram.com/mattia.menegale'"
+                    >
+                        IG
+                    </button>
+                </div>
+                <p></p>
+                <p class="text-left"> • <b>Let's keep in touch</b> via email, IG, whatsapp or even Linkedin: and share me for any opportunity, idea or whatever you may have!<br/></p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='#contacts'"
+                    >
+                        Contact Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="guides">
+    <p class="section__text__p1">Get My </p>
+    <h1 class="title">Exam Guides</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/University_of_Padua.png"
+                            alt="Project 1"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Ingegneria Informatica Triennale UniPD</h2>
+                <p class="text-left">This section is dedicated to my colleagues. Here you’ll find my collection of guides and expertise to help you prepare for and succeed in all exams of the Bachelor’s degree in Computer Engineering at the University of Padua. Feel free to use them and achieve your degree. I believe in you!
+                </p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='guides.html'"
+
+                    >
+                        Get the guides
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='#support_me'"
+                    >
+                        Support Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="contacts">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/contacts.png"
+                            alt="contacts"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">These are my contacts</h2>
+                <p class="text-left">Feel free to text me to:<br/>
+                    • get info on/discuss about <b>spottedPD</b><br/>
+                    • share a <b>feedback</b><br/>
+                    • discuss <b>opportunities</b><br/>
+                    • <b>networking</b><br/>
+                    • <b>whatever</b>!</p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.location.href='https://wa.me/393924749686?text=Ciao,%20ho%20trovato%20il%20tuo%20sito%20utile!'"
+                    >
+                        Whatsapp
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.location.href='mailto:menegalep@gmail.com'"
+
+                    >
+                        Send Mail
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.instagram.com/mattia.menegale'"
+                    >
+                        IG
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B%2FkdV06yPQsK8pNumivcXrg%3D%3D'"
+                    >
+                        Linkedin
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#support_me">Support</a></li>
+                <li><a href="#startup">Startup</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#guides">Guides</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Last update 05/17/2024. Mattia Menegale.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,3 +1,18 @@
+@media screen and (min-width: 1600px) {
+  .section-container {
+    max-width: 1500px; /* Imposta una larghezza massima per il container */
+    margin: 0 auto; /* Centra il container */
+  }
+
+  .about-containers, .experience-details-container, .contact-info-upper-container {
+    flex-wrap: nowrap; /* Impedisci l'avvolgimento se lo schermo è abbastanza largo */
+  }
+
+  .details-container, .about-details-container {
+    flex: 1;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -12,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen {
   #desktop-nav {
     display: none;
   }

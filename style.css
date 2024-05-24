@@ -77,6 +77,8 @@ a:hover {
   display: inline-block;
 }
 
+
+
 .hamburger-icon {
   display: flex;
   flex-direction: column;
@@ -119,7 +121,8 @@ a:hover {
 }
 
 .menu-links.open {
-  max-height: 300px;
+  max-height: 900px;
+
 }
 
 .hamburger-icon.open span:first-child {

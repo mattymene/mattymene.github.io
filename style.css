@@ -469,7 +469,6 @@ p {
   background: rgba(0, 0, 0, 0.8); /* Colore di sfondo con trasparenza */
   color: white; /* Colore del testo */
   text-align: center; /* Allinea il testo al centro */
-  padding: 1rem; /* Padding interno */
   z-index: 1000; /* Assicura che il banner sia sopra altri elementi */
   display: flex; /* Usa flexbox per allineare il contenuto */
   align-items: center; /* Allinea verticalmente il contenuto al centro */

@@ -10,6 +10,50 @@
 </head>
 <body>
 
+<!-- Banner di countdown -->
+<div id="countdown-banner" style="display: none;">
+    <p>Il download inizierà in <span id="countdown-timer">10</span> secondi...</p>
+    <section id="support_me2">
+        <h1 class="title">Mi puoi aiutare? </h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <p class="text-left">
+                        Ciao, le guide sono gratuite e puoi scaricarle senza fare nulla in cambio, ma se puoi ti chiedo col <b>cuore</b> di <b>aiutarmi</b> con il mio progetto, <b>spottedPD</b>, su cui sto mettendo tutto me stesso.<br/>
+                        Aiutarmi è molto veloce, ma un <b>piccolo aiuto</b> da parte tua <b>per me vale tantissimo</b> e te ne sarei <b>enormemente grato</b>.
+                    </p>
+                    <p class="text-left"> • Puoi <b>testare l'app</b>? (è molto veloce)
+                    </p>
+                    <div class="btn-container">
+                        <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='spottedPD.html#test_beta'"
+
+                        >
+                            Test the beta
+                        </button>
+
+                    </div>
+                    <p></p>
+                    <p class="text-left"> • Ti va di <b>entrare nel team</b>? </p>
+                    <div class="btn-container">
+                        <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='spottedPD.html#join_us'"
+                        >
+                            Join team
+                        </button>
+                    </div>
+                    <p class="text-left">
+                        Spero che il <b>sudore</b> e le <b>lacrime</b> che ho versato sulle guide ti stiano aiutando nel tuo percorso universitario.</b><br/>
+                        <b>Grazie di cuore</b>, <b>Mene</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 <nav id="hamburger-nav">
     <div class="logo">
         <button onclick="location.href='index.html'" class="minimal-btn">&lt;</button>
@@ -44,7 +88,7 @@
             >
                 Download CV
             </button>
-            <button class="btn btn-color-1" onclick="location.href='#contact'">
+            <button class="btn btn-color-1" onclick="location.href='#contacts'">
                 Contact Info
             </button>
         </div>
@@ -175,8 +219,7 @@
                 <div class="btn-container">
                     <button
                             class="btn btn-color-2 project-btn"
-                            onclick="window.open('https://drive.google.com/drive/folders/1EGNI3d75lnlUUVwWbq5stwGpCudsxfjQ?usp=sharing')"
-
+                            onclick="startDownloadCountdown('https://drive.google.com/drive/u/3/folders/1EGNI3d75lnlUUVwWbq5stwGpCudsxfjQ')"
                     >
                         Download
                     </button>
@@ -747,12 +790,6 @@
                     • <b>networking</b><br/>
                     • <b>whatever</b>!</p>
                 <div class="btn-container">
-                    <button
-                            class="btn btn-color-2 project-btn"
-                            onclick="window.location.href='https://wa.me/393924749686?text=Ciao,%20ho%20trovato%20il%20tuo%20sito%20utile!'"
-                    >
-                        Whatsapp
-                    </button>
                     <button
                             class="btn btn-color-2 project-btn"
                             onclick="window.location.href='mailto:menegalep@gmail.com'"

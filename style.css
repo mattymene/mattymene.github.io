@@ -457,3 +457,22 @@ footer p {
 p {
     margin-bottom: 1rem; /* Adjust the value as needed */
 }
+
+/* BANNER */
+#countdown-banner {
+  display: none; /* Nascondi il banner per impostazione predefinita */
+  position: fixed; /* Posiziona il banner in modo fisso */
+  top: 0; /* Allinea il banner al top della pagina */
+  left: 0; /* Allinea il banner a sinistra della pagina */
+  width: 100%; /* Imposta la larghezza del banner al 100% */
+  height: 100vh; /* Imposta l'altezza del banner al 100% della viewport */
+  background: rgba(0, 0, 0, 0.8); /* Colore di sfondo con trasparenza */
+  color: white; /* Colore del testo */
+  text-align: center; /* Allinea il testo al centro */
+  padding: 1rem; /* Padding interno */
+  z-index: 1000; /* Assicura che il banner sia sopra altri elementi */
+  display: flex; /* Usa flexbox per allineare il contenuto */
+  align-items: center; /* Allinea verticalmente il contenuto al centro */
+  justify-content: center; /* Allinea orizzontalmente il contenuto al centro */
+}
+

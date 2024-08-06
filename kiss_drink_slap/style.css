@@ -13,8 +13,8 @@ body {
 }
 .container {
     position: relative;
-    width: 450px; /* Increased width */
-    height: 450px; /* Increased height */
+    width: 400px; /* Increased width */
+    height: 400px; /* Increased height */
     display: flex;
     justify-content: center;
     align-items: center;

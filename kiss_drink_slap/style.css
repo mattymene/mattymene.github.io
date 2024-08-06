@@ -1,28 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #333;
 }
-.container{
+.container {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 600px; /* Increased width */
+    height: 600px; /* Increased height */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container .spinBtn{
+.container .spinBtn {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 80px; /* Increased width */
+    height: 80px; /* Increased height */
     background: #fff;
     border-radius: 50%;
     z-index: 10;
@@ -37,16 +37,16 @@ body{
     cursor: pointer;
     user-select: none;
 }
-.container .spinBtn::before{
+.container .spinBtn::before {
     content: '';
     position: absolute;
     top: -28px;
-    width: 20px;
-    height: 30px;
+    width: 30px; /* Increased width */
+    height: 40px; /* Increased height */
     background: #fff;
     clip-path: polygon(50% 0,15% 100%,85% 100%);
 }
-.container .wheel{
+.container .wheel {
     position: absolute;
     top: 0;
     left: 0;
@@ -60,7 +60,7 @@ body{
     0 0 0 18px #111;
     transition: transform 5s ease-in-out;
 }
-.container .wheel .number{
+.container .wheel .number {
     position: absolute;
     width: 50%;
     height: 50%;
@@ -76,16 +76,15 @@ body{
     cursor: pointer;
 }
 /* 360 / 8 = 45deg */
-.container .wheel .number span{
+.container .wheel .number span {
     position: relative;
     transform: rotate(45deg);
-    font-size: 2em;
+    font-size: 2.5em; /* Increased font size */
     font-weight: 700;
     color: #fff;
     text-shadow: 3px 5px 2px rgba(0,0,0,0.15);
 }
-.container .wheel .number span::after{
-
+.container .wheel .number span::after {
     position: absolute;
     font-size: 0.75em;
     font-weight: 500;

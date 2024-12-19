@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS&Eng Polimi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+
+<!-- Banner di countdown -->
+<div id="countdown-banner" style="display: none;">
+    <p>Il download inizierà in <span id="countdown-timer">10</span> secondi...</p>
+    <section id="support_me2">
+        <h1 class="title">Mi puoi aiutare? </h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <p class="text-left">
+                        Ciao, le guide sono gratuite e puoi scaricarle senza fare nulla in cambio, ma se puoi ti chiedo col <b>cuore</b> di <b>aiutarmi</b> con il mio progetto, <b>spottedPD</b>, su cui sto mettendo tutto me stesso.<br/>
+                        Aiutarmi è molto veloce, ma un <b>piccolo aiuto</b> da parte tua <b>per me vale tantissimo</b> e te ne sarei <b>enormemente grato</b>.
+                    </p>
+                    <p class="text-left"> • Puoi <b>testare l'app</b>? (è molto veloce)
+                    </p>
+                    <div class="btn-container">
+                        <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='spottedPD.html#test_beta'"
+
+                        >
+                            Test the beta
+                        </button>
+
+                    </div>
+                    <p></p>
+                    <p class="text-left"> • Ti va di <b>entrare nel team</b>? </p>
+                    <div class="btn-container">
+                        <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='spottedPD.html#join_us'"
+                        >
+                            Join team
+                        </button>
+                    </div>
+                    <p class="text-left">
+                        Spero che il <b>sudore</b> e le <b>lacrime</b> che ho versato sulle guide ti stiano aiutando nel tuo percorso universitario.</b><br/>
+                        <b>Grazie di cuore</b>, <b>Mene</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<nav id="hamburger-nav">
+    <div class="logo">
+        <button onclick="location.href='index.html'" class="minimal-btn">&lt;</button>
+        PoliMI Guides</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#support_me" onclick="toggleMenu()">Support</a></li>
+            <li><a href="#1st_year" onclick="toggleMenu()">1st year</a></li>
+            <li><a href="#2nd_year" onclick="toggleMenu()">2nd year</a></li>
+            <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Mattia menegale profile picture" />
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mattia Menegale (mene)</h1>
+        <p class="section__text__p2">Startup Founder & Computer Engineer </p>
+        <div class="btn-container">
+            <button
+                    class="btn btn-color-2"
+                    onclick="window.open('./assets/Mattia_Menegale_Resume.pdf')"
+            >
+                Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='#contacts'">
+                Contact Info
+            </button>
+        </div>
+        <div id="socials-container">
+            <img
+                    src="./assets/linkedin.png"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/menegale'"
+            />
+            <img
+                    src="./assets/github.png"
+                    alt="My Github profile"
+                    class="icon"
+                    onclick="location.href='https://github.com/mattymene'"
+            />
+        </div>
+    </div>
+</section>
+<section id="support_me">
+    <p class="section__text__p1">If you want you can </p>
+    <h1 class="title">Support Me</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/support_me.png"
+                            alt="Support Me"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Let's collaborate</h2>
+                <p class="text-left">
+                    Do you find my guides useful and <b>want to help me?</b> <br/>
+                    I don’t believe in money, but I do firmly believe in <b>Empathy</b>, <b>Cooperation</b>, and <b>Networking</b>.<br/>
+                    Therefore, there are several important ways you can help me:<br/></p>
+                <p class="text-left"> • <b>Test spottedPD in beta</b> your feedback is invaluable to improving the app.<br/>
+                </p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='spottedPD.html#test_beta'"
+                    >
+                        Test the beta
+                    </button>
+
+                </div>
+                <p></p>
+                <p class="text-left"> • <b>Join the spottedPD team</b> work with us in exchange for equities.<br/></p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='spottedPD.html#join_us'"
+                    >
+                        Join team
+                    </button>
+                </div>
+                <p></p>
+                <p class="text-left"> • <b>Follow me on LinkedIn</b> and stay updated with my latest projects and insights.<br/></p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.linkedin.com/in/menegale'"
+                    >
+                        Linkedin
+                    </button>
+                </div>
+                <p></p>
+                <p class="text-left"> • <b>Follow me on IG</b> to stay updated with my private life<br/></p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.instagram.com/mattia.menegale'"
+                    >
+                        IG
+                    </button>
+                </div>
+                <p></p>
+                <p class="text-left"> • <b>Let's keep in touch</b> via email, IG, whatsapp or even Linkedin: and share me for any opportunity, idea or whatever you may have!<br/></p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='#contacts'"
+                    >
+                        Contact Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="1st_year">
+    <p class="section__text__p1">Browse My Guides for</p>
+    <h1 class="title">1st year</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/polimi_guides/y1/CE.png"
+                            alt="CE.png"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">CE</h2>
+                <p class="text-left"> Computer Ethics (Schiaffonati): <br />
+                    DOCUMENTS:<br />
+                    - “EXAM QUESTIONS” = all exam questions BEFORE 18/12/2024<br />
+                    - “EXAM THEORY” = complete explanation of all the 9 papers that you have to study for the exam. All the possible questions, that the professor has given in past exams and that can be done in future are FULLY COVERED (in my opinion).<br />
+                    - “EXTENDED SUMMARY”= concise summary of “Mene - CE Exam Theory”. Useful for reviewing theory.<br />
+                    - “COMPACT SUMMARY”= super condensed summary of “Mene - CE Exam Theory”. Useful for repeating theory before the exam.<br />
+                    ... read more on the Guide
+                </p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="startDownloadCountdown('https://drive.google.com/drive/u/4/folders/17zVs7G1W46-vbwIpYLjfAlV0lK7_H7O0')"
+                    >
+                        Download
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='#support_me'"
+                    >
+                        Support Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="2nd_year">
+    <p class="section__text__p1">Browse My Guides for</p>
+    <h1 class="title">2nd year</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<section id="contacts">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                            src="./assets/contacts.png"
+                            alt="contacts"
+                            class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">These are my contacts</h2>
+                <p class="text-left">Feel free to text me to:<br/>
+                    • get info on/discuss about <b>spottedPD</b><br/>
+                    • share a <b>feedback</b><br/>
+                    • discuss <b>opportunities</b><br/>
+                    • <b>networking</b><br/>
+                    • <b>whatever</b>!</p>
+                <div class="btn-container">
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="window.location.href='mailto:menegalep@gmail.com'"
+
+                    >
+                        Send Mail
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.instagram.com/mattia.menegale'"
+                    >
+                        IG
+                    </button>
+                    <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://www.linkedin.com/in/menegale'"
+                    >
+                        Linkedin
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+    />
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#support_me">Support</a></li>
+                <li><a href="#1st_year">1st year</a></li>
+                <li><a href="#2nd_year">2nd year</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Last update 05/17/2024. Mattia Menegale.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

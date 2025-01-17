@@ -12,7 +12,7 @@ function startDownloadCountdown(url) {
   banner.style.display = 'block';
 
   // Imposta il countdown
-  let timeLeft = 20;
+  let timeLeft = 10;
   timer.textContent = timeLeft;
 
   const countdownInterval = setInterval(() => {

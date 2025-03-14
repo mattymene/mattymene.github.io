@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Download JoinIn App (Now in Beta)</title>
+    <style>
+        /* Reset di base */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        /* Imposta il body come flex container in colonna, altezza 100vh */
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #fff;
+          color: #333;
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+        }
+
+        /* Contenitore del logo in alto */
+        .logo-container {
+          text-align: center;
+          margin-top: 20px;
+        }
+        .logo-container img {
+          max-width: 200px;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
+
+        /* Contenitore principale, occupa lo spazio rimanente e centra verticalmente */
+        .content {
+          flex: 1; /* Occupa tutto lo spazio disponibile */
+          display: flex;
+          flex-direction: column;
+          justify-content: center; /* Centra verticalmente */
+          align-items: center;     /* Centra orizzontalmente */
+          text-align: center;
+        }
+
+        /* Contenitore riga: icona a sinistra, testo/colonna a destra */
+        .download-row {
+          display: flex;
+          align-items: center; /* Centra verticalmente icona e testo */
+          margin-bottom: 20px;
+        }
+
+        /* Stile dell'icona */
+        .icon {
+          width: 50px;
+          height: 50px;
+          margin-right: 20px; /* Spazio fra icona e testo */
+          border-radius: 8px; /* Bordi arrotondati */
+        }
+
+        /* Colonna testo/link a destra dell'icona */
+        .text-container {
+          display: flex;
+          flex-direction: column; /* Titolo e link in colonna */
+          align-items: flex-start; /* Allineamento a sinistra */
+        }
+
+        h1 {
+          font-size: 1.8rem;
+          margin-bottom: 10px; /* Spazio fra titolo e pulsanti */
+        }
+
+        /* Stile dei pulsanti */
+        a.button {
+          display: inline-block;
+          text-decoration: none;
+          background-color: #0056b3;
+          color: #fff;
+          padding: 10px 18px;
+          margin: 5px 0; /* Spazio verticale tra i due pulsanti */
+          border-radius: 6px;
+          font-weight: bold;
+          transition: background-color 0.3s ease;
+        }
+        a.button:hover {
+          background-color: #003f8a;
+        }
+    </style>
+</head>
+<body>
+<!-- Logo centrato in alto -->
+<div class="logo-container">
+    <!-- Sostituisci "joinin.png" con il percorso corretto del tuo file -->
+    <img src="joinin.png" alt="JoinIn Logo" />
+</div>
+
+<!-- Contenitore principale, centrato verticalmente -->
+<div class="content">
+    <div class="download-row">
+        <!-- Sostituisci "appstore.png" con il percorso corretto del tuo file -->
+        <img src="appstore.png" alt="App Icon" class="icon" />
+        <div class="text-container">
+            <h1>Download JoinIn App (Now in Beta)</h1>
+            <!-- Pulsanti di download, uno sotto l'altro -->
+            <a class="button" href="https://testflight.apple.com/join/IL_TUO_LINK" target="_blank">
+                iOS (TestFlight)
+            </a>
+            <a class="button" href="https://play.google.com/store/apps/details?id=IL_TUO_PACKAGE" target="_blank">
+                Android (Google Play)
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

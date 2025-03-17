@@ -11,7 +11,6 @@
           box-sizing: border-box;
         }
 
-        /* Imposta il body come flex container in colonna, altezza 100vh */
         body {
           font-family: Arial, sans-serif;
           background-color: #fff;
@@ -21,11 +20,11 @@
           height: 100vh;
         }
 
-        /* Contenitore del logo in alto */
         .logo-container {
           text-align: center;
           margin-top: 20px;
         }
+
         .logo-container img {
           max-width: 200px;
           height: auto;
@@ -33,75 +32,100 @@
           margin: 0 auto;
         }
 
-        /* Contenitore principale, occupa lo spazio rimanente e centra verticalmente */
         .content {
-          flex: 1; /* Occupa tutto lo spazio disponibile */
+          flex: 1;
           display: flex;
           flex-direction: column;
-          justify-content: center; /* Centra verticalmente */
-          align-items: center;     /* Centra orizzontalmente */
+          justify-content: center;
+          align-items: center;
           text-align: center;
+          width: 100%;
+          padding: 0 5%;
         }
 
-        /* Contenitore riga: icona a sinistra, testo/colonna a destra */
         .download-row {
           display: flex;
-          align-items: center; /* Centra verticalmente icona e testo */
+          align-items: center;
+          justify-content: center;
           margin-bottom: 20px;
+          width: 100%;
         }
 
-        /* Stile dell'icona */
         .icon {
           width: 150px;
           height: 150px;
-          margin-right: 20px; /* Spazio fra icona e testo */
-          border-radius: 8px; /* Bordi arrotondati */
+          margin-right: 20px;
+          border-radius: 8px;
+          flex-shrink: 0;
         }
 
-        /* Colonna testo/link a destra dell'icona */
         .text-container {
           display: flex;
-          flex-direction: column; /* Titolo e link in colonna */
-          align-items: flex-start; /* Allineamento a sinistra */
+          flex-direction: column;
+          align-items: flex-start;
         }
 
         h1 {
           font-size: 1.8rem;
-          margin-bottom: 10px; /* Spazio fra titolo e pulsanti */
+          margin-bottom: 10px;
+          text-align: left;
         }
 
-        /* Stile dei pulsanti */
         a.button {
           display: inline-block;
           text-decoration: none;
           background-color: #003EFF;
           color: #fff;
           padding: 10px 18px;
-          margin: 5px 0; /* Spazio verticale tra i due pulsanti */
+          margin: 5px 0;
           border-radius: 6px;
           font-weight: bold;
           transition: background-color 0.3s ease;
         }
+
         a.button:hover {
           background-color: #003f8a;
+        }
+
+        /* Media query mobile con disposizione icona-testo mantenuta */
+        @media (max-width: 768px) {
+            .download-row {
+                flex-direction: row; /* Mantieni sempre orizzontale */
+            }
+
+            .icon {
+                margin-right: 15px;
+                margin-bottom: 0;
+          width: 150px;
+          height: 150px;
+            }
+
+            h1 {
+                font-size: 1.4rem; /* Ridotto per dispositivi mobile */
+            }
+
+            .text-container {
+                align-items: flex-start;
+                text-align: left;
+            }
+
+            a.button {
+                padding: 8px 12px;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
 <body>
-<!-- Logo centrato in alto -->
 <div class="logo-container">
-    <!-- Sostituisci "joinin.png" con il percorso corretto del tuo file -->
     <img src="joinin.png" alt="JoinIn Logo" />
 </div>
 
-<!-- Contenitore principale, centrato verticalmente -->
 <div class="content">
     <div class="download-row">
-        <!-- Sostituisci "appstore.png" con il percorso corretto del tuo file -->
         <img src="appstore.png" alt="App Icon" class="icon" />
         <div class="text-container">
             <h1>Download JoinIn App (Now in Beta)</h1>
-            <!-- Pulsanti di download, uno sotto l'altro -->
             <a class="button" href="https://testflight.apple.com/join/sHt8gCEK" target="_blank">
                 iOS (TestFlight)
             </a>

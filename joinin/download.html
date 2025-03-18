@@ -4,114 +4,105 @@
     <meta charset="UTF-8" />
     <title>Download JoinIn App (Now in Beta)</title>
     <style>
-        /* Reset di base */
         * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
-          font-family: Arial, sans-serif;
-          background-color: #fff;
-          color: #333;
-          display: flex;
-          flex-direction: column;
-          height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
         }
 
         .logo-container {
-          text-align: center;
-          margin-top: 20px;
+            text-align: center;
+            margin-top: 20px;
         }
 
         .logo-container img {
-          max-width: 200px;
-          height: auto;
-          display: block;
-          margin: 0 auto;
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
         }
 
         .content {
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          width: 100%;
-          padding: 0 5%;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 0 5%;
         }
 
         .download-row {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-bottom: 20px;
-          width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 600px;
         }
 
         .icon {
-          width: 200px;
-          height: 200px;
-          margin-right: 20px;
-          border-radius: 10px;
-          flex-shrink: 0;
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            border-radius: 10px;
+            flex-shrink: 0;
         }
 
         .text-container {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
 
         h1 {
-          font-size: 1.8rem;
-          margin-bottom: 10px;
-          text-align: left;
+            font-size: 1.8rem;
+            text-align: left;
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 600px;
         }
 
         a.button {
-          display: inline-block;
-          text-decoration: none;
-          background-color: #003EFF;
-          color: #fff;
-          padding: 10px 18px;
-          margin: 5px 0;
-          border-radius: 10px;
-          font-weight: bold;
-          transition: background-color 0.3s ease;
+            display: block;
+            text-decoration: none;
+            background-color: #003EFF;
+            color: #fff;
+            padding: 20px;
+            margin: 30px 40px 10px ; /* aumenta questo valore per distanziare i bottoni */
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            text-align: center;
         }
 
         a.button:hover {
-          background-color: #003f8a;
+            background-color: #003f8a;
         }
 
-        /* Media query mobile con disposizione icona-testo mantenuta */
-        @media (max-width: 1000) {
-            .download-row {
-                flex-direction: row; /* Mantieni sempre orizzontale */
-            }
-
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
             .icon {
+                width: 100px;
+                height: 100px;
                 margin-right: 15px;
-                margin-bottom: 0;
-          width: 150px;
-          height: 150px;
             }
 
             h1 {
-                font-size: 1.4rem; /* Ridotto per dispositivi mobile */
-            }
-
-            .text-container {
-                align-items: flex-start;
-                text-align: left;
-            }
-
-            a.button {
-                padding: 8px 12px;
-                font-size: 0.9rem;
+                font-size: 1.4rem;
             }
         }
     </style>
@@ -127,16 +118,17 @@
         <div class="text-container">
             <h1>Download JoinIn App</h1>
             <h1>(Now in Beta)</h1>
-            <a class="button" href="https://testflight.apple.com/join/sHt8gCEK" target="_blank">
-                iOS (TestFlight)
-            </a>
-            <a class="button" href="https://play.google.com/store/apps/details?id=com.joininthefun.joinin" target="_blank">
-                Android (Google Play)
-            </a>
         </div>
+    </div>
+
+    <div class="buttons-container">
+        <a class="button" href="https://testflight.apple.com/join/sHt8gCEK" target="_blank">
+            iOS (TestFlight)
+        </a>
+        <a class="button" href="https://play.google.com/store/apps/details?id=com.joininthefun.joinin" target="_blank">
+            Android (Google Play)
+        </a>
     </div>
 </div>
 </body>
 </html>
-
-

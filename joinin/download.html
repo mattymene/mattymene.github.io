@@ -52,10 +52,10 @@
         }
 
         .icon {
-          width: 150px;
-          height: 150px;
+          width: 200px;
+          height: 200px;
           margin-right: 20px;
-          border-radius: 8px;
+          border-radius: 10px;
           flex-shrink: 0;
         }
 
@@ -78,7 +78,7 @@
           color: #fff;
           padding: 10px 18px;
           margin: 5px 0;
-          border-radius: 6px;
+          border-radius: 10px;
           font-weight: bold;
           transition: background-color 0.3s ease;
         }
@@ -88,7 +88,7 @@
         }
 
         /* Media query mobile con disposizione icona-testo mantenuta */
-        @media (max-width: 768px) {
+        @media (max-width: 1000) {
             .download-row {
                 flex-direction: row; /* Mantieni sempre orizzontale */
             }
@@ -125,7 +125,8 @@
     <div class="download-row">
         <img src="appstore.png" alt="App Icon" class="icon" />
         <div class="text-container">
-            <h1>Download JoinIn App (Now in Beta)</h1>
+            <h1>Download JoinIn App</h1>
+            <h1>(Now in Beta)</h1>
             <a class="button" href="https://testflight.apple.com/join/sHt8gCEK" target="_blank">
                 iOS (TestFlight)
             </a>
